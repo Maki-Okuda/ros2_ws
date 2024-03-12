@@ -1,0 +1,6 @@
+{
+  "package_name": "more_interfaces",
+  "non_idl_tuples": [
+    "/home/maki/ros2_ws/src/ros2humble_tutorials/more_interfaces:msg/AddressBook.msg"
+  ]
+}

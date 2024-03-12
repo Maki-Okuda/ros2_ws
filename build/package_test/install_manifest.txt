@@ -1,0 +1,15 @@
+/home/maki/ros2_ws/install/package_test/share/ament_index/resource_index/package_run_dependencies/package_test
+/home/maki/ros2_ws/install/package_test/share/ament_index/resource_index/parent_prefix_path/package_test
+/home/maki/ros2_ws/install/package_test/share/package_test/environment/ament_prefix_path.sh
+/home/maki/ros2_ws/install/package_test/share/package_test/environment/ament_prefix_path.dsv
+/home/maki/ros2_ws/install/package_test/share/package_test/environment/path.sh
+/home/maki/ros2_ws/install/package_test/share/package_test/environment/path.dsv
+/home/maki/ros2_ws/install/package_test/share/package_test/local_setup.bash
+/home/maki/ros2_ws/install/package_test/share/package_test/local_setup.sh
+/home/maki/ros2_ws/install/package_test/share/package_test/local_setup.zsh
+/home/maki/ros2_ws/install/package_test/share/package_test/local_setup.dsv
+/home/maki/ros2_ws/install/package_test/share/package_test/package.dsv
+/home/maki/ros2_ws/install/package_test/share/ament_index/resource_index/packages/package_test
+/home/maki/ros2_ws/install/package_test/share/package_test/cmake/package_testConfig.cmake
+/home/maki/ros2_ws/install/package_test/share/package_test/cmake/package_testConfig-version.cmake
+/home/maki/ros2_ws/install/package_test/share/package_test/package.xml

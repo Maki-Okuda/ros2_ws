@@ -1,0 +1,87 @@
+[0.186s] Invoking command in '/home/maki/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/ros2humble_tutorials/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/action_tutorials_cpp
+[0.266s] -- The C compiler identification is GNU 11.4.0
+[0.336s] -- The CXX compiler identification is GNU 11.4.0
+[0.341s] -- Detecting C compiler ABI info
+[0.400s] -- Detecting C compiler ABI info - done
+[0.409s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.409s] -- Detecting C compile features
+[0.409s] -- Detecting C compile features - done
+[0.412s] -- Detecting CXX compiler ABI info
+[0.487s] -- Detecting CXX compiler ABI info - done
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.492s] -- Detecting CXX compile features
+[0.493s] -- Detecting CXX compile features - done
+[0.494s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.632s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.721s] -- Found action_tutorials_interfaces: 0.20.3 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)
+[0.755s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.759s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.768s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.800s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.966s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.026s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.029s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.122s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.147s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.191s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.199s] -- Looking for pthread.h
+[1.259s] -- Looking for pthread.h - found
+[1.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.306s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.306s] -- Found Threads: TRUE  
+[1.414s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.445s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.508s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.590s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.590s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maki/ros2_ws/src/ros2humble_tutorials/action_tutorials_cpp/include>
+[1.590s] -- Configured cppcheck exclude dirs and/or files: 
+[1.591s] -- Added test 'lint_cmake' to check CMake code style
+[1.593s] -- Added test 'uncrustify' to check C / C++ code style
+[1.593s] -- Configured uncrustify additional arguments: 
+[1.593s] -- Added test 'xmllint' to check XML markup files
+[1.595s] -- Configuring done
+[1.617s] -- Generating done
+[1.619s] -- Build files have been written to: /home/maki/ros2_ws/build/action_tutorials_cpp
+[1.752s] Invoked command in '/home/maki/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/ros2humble_tutorials/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/action_tutorials_cpp
+[1.754s] Invoking command in '/home/maki/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/action_tutorials_cpp -- -j12 -l12
+[1.877s] [ 12%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[1.881s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[1.883s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[1.894s] [ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_client.dir/rclcpp_components/node_main_fibonacci_action_client.cpp.o[0m
+[7.458s] [ 62%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[8.066s] [ 62%] Built target action_server
+[9.575s] [ 75%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[9.678s] [ 87%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[9.722s] [100%] [32m[1mLinking CXX executable fibonacci_action_client[0m
+[9.810s] [100%] Built target fibonacci_action_server
+[9.885s] [100%] Built target fibonacci_action_client
+[9.920s] [100%] Built target action_client
+[9.932s] Invoked command in '/home/maki/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/action_tutorials_cpp -- -j12 -l12
+[9.986s] Invoking command in '/home/maki/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/action_tutorials_cpp
+[10.004s] -- Install configuration: ""
+[10.004s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[10.004s] -- Set runtime path of "/home/maki/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""
+[10.004s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so
+[10.005s] -- Set runtime path of "/home/maki/ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so" to ""
+[10.005s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_client
+[10.005s] -- Set runtime path of "/home/maki/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_client" to ""
+[10.005s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so
+[10.005s] -- Set runtime path of "/home/maki/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so" to ""
+[10.006s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[10.007s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[10.007s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[10.008s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[10.009s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[10.010s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[10.010s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[10.011s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[10.011s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[10.011s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[10.012s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[10.012s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[10.012s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[10.013s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[10.013s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[10.014s] -- Installing: /home/maki/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[10.030s] Invoked command in '/home/maki/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/action_tutorials_cpp

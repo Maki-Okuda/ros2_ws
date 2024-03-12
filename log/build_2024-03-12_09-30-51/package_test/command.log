@@ -1,0 +1,6 @@
+Invoking command in '/home/maki/ros2_ws/build/package_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/package_test -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/package_test
+Invoked command in '/home/maki/ros2_ws/build/package_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/package_test -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/package_test
+Invoking command in '/home/maki/ros2_ws/build/package_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/package_test -- -j12 -l12
+Invoked command in '/home/maki/ros2_ws/build/package_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/package_test -- -j12 -l12
+Invoking command in '/home/maki/ros2_ws/build/package_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/package_test
+Invoked command in '/home/maki/ros2_ws/build/package_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/package_test

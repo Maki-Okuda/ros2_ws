@@ -1,0 +1,17 @@
+/home/maki/ros2_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder
+/home/maki/ros2_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/data_generator_node
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake
+/home/maki/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml
