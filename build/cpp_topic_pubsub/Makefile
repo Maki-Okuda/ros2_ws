@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub
+CMAKE_SOURCE_DIR = /home/maki/ros2_ws/src/cpp_topic_pubsub
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/maki/ros2_ws/build/cpp_topic_pubsub

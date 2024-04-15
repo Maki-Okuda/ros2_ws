@@ -403,7 +403,7 @@ cpp_topic_pubsub_BINARY_DIR:STATIC=/home/maki/ros2_ws/build/cpp_topic_pubsub
 cpp_topic_pubsub_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-cpp_topic_pubsub_SOURCE_DIR:STATIC=/home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub
+cpp_topic_pubsub_SOURCE_DIR:STATIC=/home/maki/ros2_ws/src/cpp_topic_pubsub
 
 //Dependencies for the target
 cpp_topic_pubsub__rosidl_generator_c_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -671,7 +671,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/maki/ros2_ws/src/cpp_topic_pubsub
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

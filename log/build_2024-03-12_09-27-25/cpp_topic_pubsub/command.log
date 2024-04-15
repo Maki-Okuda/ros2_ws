@@ -1,6 +1,0 @@
-Invoking command in '/home/maki/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/cpp_topic_pubsub
-Invoked command in '/home/maki/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/cpp_topic_pubsub
-Invoking command in '/home/maki/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/cpp_topic_pubsub -- -j12 -l12
-Invoked command in '/home/maki/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/cpp_topic_pubsub -- -j12 -l12
-Invoking command in '/home/maki/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/cpp_topic_pubsub
-Invoked command in '/home/maki/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/cpp_topic_pubsub

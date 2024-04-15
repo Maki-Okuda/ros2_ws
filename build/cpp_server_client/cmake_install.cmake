@@ -1,4 +1,4 @@
-# Install script for directory: /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client
+# Install script for directory: /home/maki/ros2_ws/src/cpp_surver_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -360,7 +360,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/srv" TYPE FILE FILES "/home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client/srv/PracticeSrv.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/srv" TYPE FILE FILES "/home/maki/ros2_ws/src/cpp_surver_client/srv/PracticeSrv.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -663,7 +663,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/home/maki/ros2_ws/src/cpp_surver_client/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

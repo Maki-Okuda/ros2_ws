@@ -1,0 +1,3 @@
+int64[] num_vector  # Request
+---
+int64 cumulative_sum  # Response

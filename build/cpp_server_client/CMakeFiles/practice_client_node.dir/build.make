@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client
+CMAKE_SOURCE_DIR = /home/maki/ros2_ws/src/cpp_surver_client
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/maki/ros2_ws/build/cpp_server_client
@@ -70,18 +70,18 @@ include CMakeFiles/practice_client_node.dir/progress.make
 include CMakeFiles/practice_client_node.dir/flags.make
 
 CMakeFiles/practice_client_node.dir/src/client_node.cpp.o: CMakeFiles/practice_client_node.dir/flags.make
-CMakeFiles/practice_client_node.dir/src/client_node.cpp.o: /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client/src/client_node.cpp
+CMakeFiles/practice_client_node.dir/src/client_node.cpp.o: /home/maki/ros2_ws/src/cpp_surver_client/src/client_node.cpp
 CMakeFiles/practice_client_node.dir/src/client_node.cpp.o: CMakeFiles/practice_client_node.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maki/ros2_ws/build/cpp_server_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practice_client_node.dir/src/client_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practice_client_node.dir/src/client_node.cpp.o -MF CMakeFiles/practice_client_node.dir/src/client_node.cpp.o.d -o CMakeFiles/practice_client_node.dir/src/client_node.cpp.o -c /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client/src/client_node.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practice_client_node.dir/src/client_node.cpp.o -MF CMakeFiles/practice_client_node.dir/src/client_node.cpp.o.d -o CMakeFiles/practice_client_node.dir/src/client_node.cpp.o -c /home/maki/ros2_ws/src/cpp_surver_client/src/client_node.cpp
 
 CMakeFiles/practice_client_node.dir/src/client_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice_client_node.dir/src/client_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client/src/client_node.cpp > CMakeFiles/practice_client_node.dir/src/client_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maki/ros2_ws/src/cpp_surver_client/src/client_node.cpp > CMakeFiles/practice_client_node.dir/src/client_node.cpp.i
 
 CMakeFiles/practice_client_node.dir/src/client_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice_client_node.dir/src/client_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client/src/client_node.cpp -o CMakeFiles/practice_client_node.dir/src/client_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maki/ros2_ws/src/cpp_surver_client/src/client_node.cpp -o CMakeFiles/practice_client_node.dir/src/client_node.cpp.s
 
 # Object files for target practice_client_node
 practice_client_node_OBJECTS = \
@@ -160,6 +160,6 @@ CMakeFiles/practice_client_node.dir/clean:
 .PHONY : CMakeFiles/practice_client_node.dir/clean
 
 CMakeFiles/practice_client_node.dir/depend:
-	cd /home/maki/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client/CMakeFiles/practice_client_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maki/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maki/ros2_ws/src/cpp_surver_client /home/maki/ros2_ws/src/cpp_surver_client /home/maki/ros2_ws/build/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client/CMakeFiles/practice_client_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/practice_client_node.dir/depend
 

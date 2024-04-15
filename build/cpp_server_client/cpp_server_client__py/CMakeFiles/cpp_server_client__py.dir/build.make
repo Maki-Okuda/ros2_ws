@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client
+CMAKE_SOURCE_DIR = /home/maki/ros2_ws/src/cpp_surver_client
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/maki/ros2_ws/build/cpp_server_client
@@ -124,6 +124,6 @@ cpp_server_client__py/CMakeFiles/cpp_server_client__py.dir/clean:
 .PHONY : cpp_server_client__py/CMakeFiles/cpp_server_client__py.dir/clean
 
 cpp_server_client__py/CMakeFiles/cpp_server_client__py.dir/depend:
-	cd /home/maki/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client/cpp_server_client__py /home/maki/ros2_ws/build/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client/cpp_server_client__py /home/maki/ros2_ws/build/cpp_server_client/cpp_server_client__py/CMakeFiles/cpp_server_client__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maki/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maki/ros2_ws/src/cpp_surver_client /home/maki/ros2_ws/build/cpp_server_client/cpp_server_client__py /home/maki/ros2_ws/build/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client/cpp_server_client__py /home/maki/ros2_ws/build/cpp_server_client/cpp_server_client__py/CMakeFiles/cpp_server_client__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cpp_server_client__py/CMakeFiles/cpp_server_client__py.dir/depend
 

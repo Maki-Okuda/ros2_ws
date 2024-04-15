@@ -1,6 +1,0 @@
-Invoking command in '/home/maki/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/cpp_parameters
-Invoked command in '/home/maki/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/cpp_parameters
-Invoking command in '/home/maki/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/cpp_parameters -- -j12 -l12
-Invoked command in '/home/maki/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/cpp_parameters -- -j12 -l12
-Invoking command in '/home/maki/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/cpp_parameters
-Invoked command in '/home/maki/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/cpp_parameters

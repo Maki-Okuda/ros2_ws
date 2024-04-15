@@ -1,4 +1,4 @@
-# Install script for directory: /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub
+# Install script for directory: /home/maki/ros2_ws/src/cpp_topic_pubsub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -360,7 +360,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_topic_pubsub/msg" TYPE FILE FILES "/home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub/msg/PracticeMsg.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_topic_pubsub/msg" TYPE FILE FILES "/home/maki/ros2_ws/src/cpp_topic_pubsub/msg/PracticeMsg.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -655,7 +655,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_topic_pubsub" TYPE FILE FILES "/home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_topic_pubsub" TYPE FILE FILES "/home/maki/ros2_ws/src/cpp_topic_pubsub/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

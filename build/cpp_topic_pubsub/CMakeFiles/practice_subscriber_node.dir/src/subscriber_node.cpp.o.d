@@ -1,5 +1,5 @@
 CMakeFiles/practice_subscriber_node.dir/src/subscriber_node.cpp.o: \
- /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub/src/subscriber_node.cpp \
+ /home/maki/ros2_ws/src/cpp_topic_pubsub/src/subscriber_node.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

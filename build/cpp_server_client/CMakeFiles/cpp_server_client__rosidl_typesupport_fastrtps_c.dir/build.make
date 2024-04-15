@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client
+CMAKE_SOURCE_DIR = /home/maki/ros2_ws/src/cpp_surver_client
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/maki/ros2_ws/build/cpp_server_client
@@ -128,6 +128,6 @@ CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/cpp_server_client/srv/detail/practice_srv__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/cpp_server_client/srv/detail/practice_srv__type_support_c.cpp
-	cd /home/maki/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client/CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maki/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maki/ros2_ws/src/cpp_surver_client /home/maki/ros2_ws/src/cpp_surver_client /home/maki/ros2_ws/build/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client /home/maki/ros2_ws/build/cpp_server_client/CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c.dir/depend
 

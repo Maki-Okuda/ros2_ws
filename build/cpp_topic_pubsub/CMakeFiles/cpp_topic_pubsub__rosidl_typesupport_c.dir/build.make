@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub
+CMAKE_SOURCE_DIR = /home/maki/ros2_ws/src/cpp_topic_pubsub
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/maki/ros2_ws/build/cpp_topic_pubsub
@@ -119,6 +119,6 @@ CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/clean:
 .PHONY : CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/clean
 
 CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/cpp_topic_pubsub/msg/practice_msg__type_support.cpp
-	cd /home/maki/ros2_ws/build/cpp_topic_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub /home/maki/ros2_ws/src/ros2humble_tutorials/cpp_topic_pubsub /home/maki/ros2_ws/build/cpp_topic_pubsub /home/maki/ros2_ws/build/cpp_topic_pubsub /home/maki/ros2_ws/build/cpp_topic_pubsub/CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maki/ros2_ws/build/cpp_topic_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maki/ros2_ws/src/cpp_topic_pubsub /home/maki/ros2_ws/src/cpp_topic_pubsub /home/maki/ros2_ws/build/cpp_topic_pubsub /home/maki/ros2_ws/build/cpp_topic_pubsub /home/maki/ros2_ws/build/cpp_topic_pubsub/CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/depend
 

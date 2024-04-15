@@ -1,0 +1,15 @@
+/home/maki/ros2_ws/install/practice2/share/ament_index/resource_index/package_run_dependencies/practice2
+/home/maki/ros2_ws/install/practice2/share/ament_index/resource_index/parent_prefix_path/practice2
+/home/maki/ros2_ws/install/practice2/share/practice2/environment/ament_prefix_path.sh
+/home/maki/ros2_ws/install/practice2/share/practice2/environment/ament_prefix_path.dsv
+/home/maki/ros2_ws/install/practice2/share/practice2/environment/path.sh
+/home/maki/ros2_ws/install/practice2/share/practice2/environment/path.dsv
+/home/maki/ros2_ws/install/practice2/share/practice2/local_setup.bash
+/home/maki/ros2_ws/install/practice2/share/practice2/local_setup.sh
+/home/maki/ros2_ws/install/practice2/share/practice2/local_setup.zsh
+/home/maki/ros2_ws/install/practice2/share/practice2/local_setup.dsv
+/home/maki/ros2_ws/install/practice2/share/practice2/package.dsv
+/home/maki/ros2_ws/install/practice2/share/ament_index/resource_index/packages/practice2
+/home/maki/ros2_ws/install/practice2/share/practice2/cmake/practice2Config.cmake
+/home/maki/ros2_ws/install/practice2/share/practice2/cmake/practice2Config-version.cmake
+/home/maki/ros2_ws/install/practice2/share/practice2/package.xml

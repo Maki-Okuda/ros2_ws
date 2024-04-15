@@ -1,0 +1,6 @@
+Invoking command in '/home/maki/ros2_ws/build/practice2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/practice2 -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/practice2
+Invoked command in '/home/maki/ros2_ws/build/practice2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/practice2 -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/practice2
+Invoking command in '/home/maki/ros2_ws/build/practice2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/practice2 -- -j12 -l12
+Invoked command in '/home/maki/ros2_ws/build/practice2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/practice2 -- -j12 -l12
+Invoking command in '/home/maki/ros2_ws/build/practice2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/practice2
+Invoked command in '/home/maki/ros2_ws/build/practice2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/practice2

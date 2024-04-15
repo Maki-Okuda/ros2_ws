@@ -1,6 +1,0 @@
-Invoking command in '/home/maki/ros2_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/ros2humble_tutorials/bag_recorder_nodes -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/bag_recorder_nodes
-Invoked command in '/home/maki/ros2_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/ros2humble_tutorials/bag_recorder_nodes -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/bag_recorder_nodes
-Invoking command in '/home/maki/ros2_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/bag_recorder_nodes -- -j12 -l12
-Invoked command in '/home/maki/ros2_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/bag_recorder_nodes -- -j12 -l12
-Invoking command in '/home/maki/ros2_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/bag_recorder_nodes
-Invoked command in '/home/maki/ros2_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/bag_recorder_nodes

@@ -1,0 +1,253 @@
+[0.074s] Invoking command in '/home/maki/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/cpp_topic_pubsub -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/cpp_topic_pubsub
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.271s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.411s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.475s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.500s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.502s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.508s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.516s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.576s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.578s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.635s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.651s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.682s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.691s] -- Looking for pthread.h
+[0.742s] -- Looking for pthread.h - found
+[0.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.787s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.788s] -- Found Threads: TRUE  
+[0.889s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.894s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.056s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.342s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.343s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.359s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.359s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.359s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.359s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.373s] -- Found PythonExtra: .so  
+[1.398s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.398s] -- Configured cppcheck include dirs: 
+[1.398s] -- Configured cppcheck exclude dirs and/or files: 
+[1.399s] -- Added test 'lint_cmake' to check CMake code style
+[1.399s] -- Added test 'uncrustify' to check C / C++ code style
+[1.399s] -- Configured uncrustify additional arguments: 
+[1.399s] -- Added test 'xmllint' to check XML markup files
+[1.402s] -- Configuring done
+[1.434s] -- Generating done
+[1.435s] -- Build files have been written to: /home/maki/ros2_ws/build/cpp_topic_pubsub
+[1.444s] Invoked command in '/home/maki/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/cpp_topic_pubsub -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/cpp_topic_pubsub
+[1.445s] Invoking command in '/home/maki/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/cpp_topic_pubsub -- -j12 -l12
+[1.470s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.479s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.487s] [  5%] Built target ament_cmake_python_copy_cpp_topic_pubsub
+[1.649s] [  8%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_generator_c.dir/rosidl_generator_c/cpp_topic_pubsub/msg/detail/practice_msg__functions.c.o[0m
+[1.691s] [ 11%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_generator_c.so[0m
+[1.717s] [ 11%] Built target cpp_topic_pubsub__cpp
+[1.720s] [ 11%] Built target cpp_topic_pubsub__rosidl_generator_c
+[1.725s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.727s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.727s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.727s] running egg_info
+[1.728s] creating cpp_topic_pubsub.egg-info
+[1.728s] writing cpp_topic_pubsub.egg-info/PKG-INFO
+[1.729s] writing dependency_links to cpp_topic_pubsub.egg-info/dependency_links.txt
+[1.729s] writing top-level names to cpp_topic_pubsub.egg-info/top_level.txt
+[1.730s] writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+[1.731s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.731s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.733s] reading manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+[1.733s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.734s] writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+[1.768s] [ 28%] Built target ament_cmake_python_build_cpp_topic_pubsub_egg
+[1.980s] [ 31%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o[0m
+[2.000s] [ 34%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support_c.cpp.o[0m
+[2.009s] [ 37%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o[0m
+[2.011s] [ 40%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_c.so[0m
+[2.015s] [ 42%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_topic_pubsub/msg/detail/dds_fastrtps/practice_msg__type_support.cpp.o[0m
+[2.018s] [ 45%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support.c.o[0m
+[2.027s] [ 48%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_topic_pubsub/msg/detail/practice_msg__type_support.cpp.o[0m
+[2.061s] [ 51%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so[0m
+[2.073s] [ 51%] Built target cpp_topic_pubsub__rosidl_typesupport_c
+[2.106s] [ 51%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c
+[2.287s] [ 54%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_cpp.so[0m
+[2.314s] [ 57%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_cpp.so[0m
+[2.356s] [ 57%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_cpp
+[2.356s] [ 57%] Built target cpp_topic_pubsub__rosidl_typesupport_cpp
+[2.373s] [ 60%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so[0m
+[2.376s] [ 65%] [32mBuilding CXX object CMakeFiles/practice_subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[2.377s] [ 65%] [32mBuilding CXX object CMakeFiles/practice_publisher_node.dir/src/publisher_node.cpp.o[0m
+[2.444s] [ 68%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.455s] [ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c
+[2.521s] [ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp
+[2.539s] [ 68%] Built target cpp_topic_pubsub
+[2.556s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.860s] [ 71%] Built target cpp_topic_pubsub__py
+[2.878s] [ 74%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_generator_py.dir/rosidl_generator_py/cpp_topic_pubsub/msg/_practice_msg_s.c.o[0m
+[2.968s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/libcpp_topic_pubsub__rosidl_generator_py.so[0m
+[3.003s] [ 77%] Built target cpp_topic_pubsub__rosidl_generator_py
+[3.023s] [ 85%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.023s] [ 85%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_c.c.o[0m
+[3.023s] [ 85%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.106s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.108s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.111s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.137s] [ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_c__pyext
+[3.139s] [ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext
+[3.143s] [ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext
+[5.935s] [ 97%] [32m[1mLinking CXX executable practice_publisher_node[0m
+[6.052s] [ 97%] Built target practice_publisher_node
+[7.458s] [100%] [32m[1mLinking CXX executable practice_subscriber_node[0m
+[7.680s] [100%] Built target practice_subscriber_node
+[7.688s] Invoked command in '/home/maki/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/cpp_topic_pubsub -- -j12 -l12
+[7.724s] Invoking command in '/home/maki/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/cpp_topic_pubsub
+[7.729s] -- Install configuration: ""
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/ament_index/resource_index/rosidl_interfaces/cpp_topic_pubsub
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__functions.c
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__struct.h
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__functions.h
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__type_support.h
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/rosidl_generator_c__visibility_control.h
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/practice_msg.h
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/library_path.sh
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/library_path.dsv
+[7.729s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_generator_c.so
+[7.729s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_generator_c.so" to ""
+[7.729s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[7.730s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[7.730s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[7.730s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__rosidl_typesupport_fastrtps_c.h
+[7.730s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.730s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so
+[7.730s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so" to ""
+[7.730s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[7.730s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[7.730s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[7.730s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__traits.hpp
+[7.730s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__builder.hpp
+[7.730s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__struct.hpp
+[7.730s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/practice_msg.hpp
+[7.730s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[7.730s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[7.731s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/dds_fastrtps
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so
+[7.731s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.731s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[7.731s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[7.731s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__type_support.c
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__rosidl_typesupport_introspection_c.h
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so
+[7.731s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so" to ""
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_c.so
+[7.731s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_c.so" to ""
+[7.731s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[7.731s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[7.731s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__type_support.cpp
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_introspection_cpp.so
+[7.731s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_introspection_cpp.so" to ""
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_cpp.so
+[7.731s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_cpp.so" to ""
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/pythonpath.sh
+[7.731s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/pythonpath.dsv
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub-0.0.0-py3.10.egg-info
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub-0.0.0-py3.10.egg-info/PKG-INFO
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub-0.0.0-py3.10.egg-info/top_level.txt
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_introspection_c.c
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/__init__.py
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg/__init__.py
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg/_practice_msg.py
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg/_practice_msg_s.c
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_c.c
+[7.732s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/libcpp_topic_pubsub__rosidl_generator_py.so
+[7.752s] Listing '/home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub'...
+[7.753s] Compiling '/home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/__init__.py'...
+[7.753s] Listing '/home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg'...
+[7.753s] Compiling '/home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg/__init__.py'...
+[7.753s] Compiling '/home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg/_practice_msg.py'...
+[7.755s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.755s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.755s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.756s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.756s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.756s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.756s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_generator_py.so
+[7.756s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_generator_py.so" to ""
+[7.756s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/msg/PracticeMsg.idl
+[7.756s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/msg/PracticeMsg.msg
+[7.756s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/lib/cpp_topic_pubsub/practice_publisher_node
+[7.757s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/lib/cpp_topic_pubsub/practice_publisher_node" to ""
+[7.757s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/lib/cpp_topic_pubsub/practice_subscriber_node
+[7.759s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_topic_pubsub/lib/cpp_topic_pubsub/practice_subscriber_node" to ""
+[7.759s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_topic_pubsub
+[7.759s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_topic_pubsub
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/ament_prefix_path.sh
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/ament_prefix_path.dsv
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/path.sh
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/path.dsv
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/local_setup.bash
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/local_setup.sh
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/local_setup.zsh
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/local_setup.dsv
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.dsv
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/ament_index/resource_index/packages/cpp_topic_pubsub
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_generator_cExport.cmake
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_generator_cExport-noconfig.cmake
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_typesupport_fastrtps_cExport.cmake
+[7.760s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_generator_cppExport.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_introspection_cExport.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_cExport.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_cExport-noconfig.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_introspection_cppExport.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_cppExport.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_cppExport-noconfig.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_generator_pyExport.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_generator_pyExport-noconfig.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/rosidl_cmake-extras.cmake
+[7.761s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.762s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[7.762s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/ament_cmake_export_targets-extras.cmake
+[7.762s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.762s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.762s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.762s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsubConfig.cmake
+[7.762s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsubConfig-version.cmake
+[7.762s] -- Installing: /home/maki/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.xml
+[7.763s] Invoked command in '/home/maki/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/cpp_topic_pubsub

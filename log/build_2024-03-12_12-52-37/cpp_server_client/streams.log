@@ -1,0 +1,259 @@
+[0.102s] Invoking command in '/home/maki/ros2_ws/build/cpp_server_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/cpp_surver_client -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/cpp_server_client
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.195s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.249s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.305s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.311s] -- Detecting CXX compile features
+[0.311s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.409s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.477s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.512s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.515s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.521s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.604s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.662s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.679s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.708s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.717s] -- Looking for pthread.h
+[0.763s] -- Looking for pthread.h - found
+[0.764s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.807s] -- Found Threads: TRUE  
+[0.908s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.914s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.085s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.356s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.370s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.371s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.388s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.388s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.388s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.388s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.401s] -- Found PythonExtra: .so  
+[1.426s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.426s] -- Configured cppcheck include dirs: 
+[1.427s] -- Configured cppcheck exclude dirs and/or files: 
+[1.427s] -- Added test 'lint_cmake' to check CMake code style
+[1.427s] -- Added test 'uncrustify' to check C / C++ code style
+[1.428s] -- Configured uncrustify additional arguments: 
+[1.428s] -- Added test 'xmllint' to check XML markup files
+[1.431s] -- Configuring done
+[1.450s] -- Generating done
+[1.452s] -- Build files have been written to: /home/maki/ros2_ws/build/cpp_server_client
+[1.460s] Invoked command in '/home/maki/ros2_ws/build/cpp_server_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maki/ros2_ws/src/cpp_surver_client -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/cpp_server_client
+[1.462s] Invoking command in '/home/maki/ros2_ws/build/cpp_server_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/cpp_server_client -- -j12 -l12
+[1.487s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.491s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.502s] [  5%] Built target ament_cmake_python_copy_cpp_server_client
+[1.678s] [  5%] Built target cpp_server_client__cpp
+[1.687s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.687s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.687s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.738s] running egg_info
+[1.739s] creating cpp_server_client.egg-info
+[1.739s] writing cpp_server_client.egg-info/PKG-INFO
+[1.739s] writing dependency_links to cpp_server_client.egg-info/dependency_links.txt
+[1.739s] writing top-level names to cpp_server_client.egg-info/top_level.txt
+[1.739s] writing manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[1.742s] reading manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[1.743s] writing manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[1.778s] [ 14%] Built target ament_cmake_python_build_cpp_server_client_egg
+[1.797s] [ 17%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_generator_c.dir/rosidl_generator_c/cpp_server_client/srv/detail/practice_srv__functions.c.o[0m
+[1.856s] [ 20%] [32m[1mLinking C shared library libcpp_server_client__rosidl_generator_c.so[0m
+[1.891s] [ 20%] Built target cpp_server_client__rosidl_generator_c
+[1.900s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.901s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.901s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.923s] [ 31%] [32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_server_client/srv/detail/dds_fastrtps/practice_srv__type_support.cpp.o[0m
+[1.977s] [ 34%] [32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_server_client/srv/practice_srv__type_support.cpp.o[0m
+[1.989s] [ 37%] [32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_server_client/srv/detail/practice_srv__type_support.cpp.o[0m
+[2.155s] [ 40%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_server_client/srv/detail/practice_srv__type_support.c.o[0m
+[2.181s] [ 42%] [32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_server_client/srv/practice_srv__type_support.cpp.o[0m
+[2.183s] [ 45%] [32m[1mLinking C shared library libcpp_server_client__rosidl_typesupport_introspection_c.so[0m
+[2.208s] [ 48%] [32m[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_c.so[0m
+[2.213s] [ 51%] [32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_server_client/srv/detail/practice_srv__type_support_c.cpp.o[0m
+[2.214s] [ 51%] Built target cpp_server_client__rosidl_typesupport_introspection_c
+[2.249s] [ 51%] Built target cpp_server_client__rosidl_typesupport_c
+[2.256s] [ 54%] [32m[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_cpp.so[0m
+[2.296s] [ 54%] Built target cpp_server_client__rosidl_typesupport_cpp
+[2.316s] [ 60%] [32mBuilding CXX object CMakeFiles/practice_server_node.dir/src/server_node.cpp.o[0m
+[2.316s] [ 60%] [32mBuilding CXX object CMakeFiles/practice_client_node.dir/src/client_node.cpp.o[0m
+[2.353s] [ 62%] [32m[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_introspection_cpp.so[0m
+[2.414s] [ 62%] Built target cpp_server_client__rosidl_typesupport_introspection_cpp
+[2.440s] [ 65%] [32m[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.521s] [ 65%] Built target cpp_server_client__rosidl_typesupport_fastrtps_cpp
+[2.576s] [ 68%] [32m[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_fastrtps_c.so[0m
+[2.654s] [ 68%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c
+[2.672s] [ 68%] Built target cpp_server_client
+[2.690s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.115s] [ 71%] Built target cpp_server_client__py
+[3.134s] [ 74%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_generator_py.dir/rosidl_generator_py/cpp_server_client/srv/_practice_srv_s.c.o[0m
+[3.238s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/cpp_server_client/libcpp_server_client__rosidl_generator_py.so[0m
+[3.274s] [ 77%] Built target cpp_server_client__rosidl_generator_py
+[3.293s] [ 85%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_c.c.o[0m
+[3.293s] [ 85%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.293s] [ 85%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.380s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.380s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.383s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.410s] [ 94%] Built target cpp_server_client__rosidl_typesupport_c__pyext
+[3.411s] [ 94%] Built target cpp_server_client__rosidl_typesupport_introspection_c__pyext
+[3.413s] [ 94%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext
+[4.561s] [ 97%] [32m[1mLinking CXX executable practice_server_node[0m
+[4.654s] [ 97%] Built target practice_server_node
+[5.874s] [100%] [32m[1mLinking CXX executable practice_client_node[0m
+[6.010s] [100%] Built target practice_client_node
+[6.018s] Invoked command in '/home/maki/ros2_ws/build/cpp_server_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/cpp_server_client -- -j12 -l12
+[6.055s] Invoking command in '/home/maki/ros2_ws/build/cpp_server_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/cpp_server_client
+[6.061s] -- Install configuration: ""
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/ament_index/resource_index/rosidl_interfaces/cpp_server_client
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__functions.c
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__struct.h
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__type_support.h
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__functions.h
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/practice_srv.h
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg/rosidl_generator_c__visibility_control.h
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/environment/library_path.sh
+[6.061s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/environment/library_path.dsv
+[6.062s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_generator_c.so
+[6.062s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_generator_c.so" to ""
+[6.062s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client
+[6.062s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv
+[6.062s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail
+[6.062s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__rosidl_typesupport_fastrtps_c.h
+[6.062s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg
+[6.062s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.062s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_fastrtps_c.so
+[6.062s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_fastrtps_c.so" to ""
+[6.062s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client
+[6.062s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv
+[6.062s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail
+[6.062s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__traits.hpp
+[6.062s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__builder.hpp
+[6.062s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__struct.hpp
+[6.062s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/practice_srv.hpp
+[6.062s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client
+[6.063s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv
+[6.063s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail
+[6.063s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/dds_fastrtps
+[6.063s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[6.063s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg
+[6.063s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.063s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so
+[6.063s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.063s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client
+[6.063s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv
+[6.063s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail
+[6.063s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__type_support.c
+[6.063s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__rosidl_typesupport_introspection_c.h
+[6.063s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg
+[6.064s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.064s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_introspection_c.so
+[6.064s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_introspection_c.so" to ""
+[6.064s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_c.so
+[6.064s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_c.so" to ""
+[6.064s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client
+[6.064s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv
+[6.064s] -- Up-to-date: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail
+[6.064s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__type_support.cpp
+[6.064s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__rosidl_typesupport_introspection_cpp.hpp
+[6.064s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_introspection_cpp.so
+[6.064s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_introspection_cpp.so" to ""
+[6.064s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_cpp.so
+[6.065s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_cpp.so" to ""
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/environment/pythonpath.sh
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/environment/pythonpath.dsv
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info/PKG-INFO
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info/top_level.txt
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/__init__.py
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_introspection_c.c
+[6.065s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_c.c
+[6.066s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.066s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv
+[6.066s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv/__init__.py
+[6.066s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv/_practice_srv.py
+[6.066s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv/_practice_srv_s.c
+[6.066s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/libcpp_server_client__rosidl_generator_py.so
+[6.086s] Listing '/home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client'...
+[6.086s] Compiling '/home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/__init__.py'...
+[6.086s] Listing '/home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv'...
+[6.086s] Compiling '/home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv/__init__.py'...
+[6.086s] Compiling '/home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv/_practice_srv.py'...
+[6.089s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.089s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.089s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.089s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.089s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.089s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.090s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_generator_py.so
+[6.090s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/lib/libcpp_server_client__rosidl_generator_py.so" to ""
+[6.090s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/srv/PracticeSrv.idl
+[6.090s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/srv/PracticeSrv.srv
+[6.090s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/srv/PracticeSrv_Request.msg
+[6.090s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/srv/PracticeSrv_Response.msg
+[6.090s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/lib/cpp_server_client/practice_server_node
+[6.090s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/lib/cpp_server_client/practice_server_node" to ""
+[6.091s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/lib/cpp_server_client/practice_client_node
+[6.091s] -- Set runtime path of "/home/maki/ros2_ws/install/cpp_server_client/lib/cpp_server_client/practice_client_node" to ""
+[6.091s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/ament_index/resource_index/package_run_dependencies/cpp_server_client
+[6.091s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/ament_index/resource_index/parent_prefix_path/cpp_server_client
+[6.091s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/environment/ament_prefix_path.sh
+[6.091s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/environment/ament_prefix_path.dsv
+[6.091s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/environment/path.sh
+[6.091s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/environment/path.dsv
+[6.091s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/local_setup.bash
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/local_setup.sh
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/local_setup.zsh
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/local_setup.dsv
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.dsv
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/ament_index/resource_index/packages/cpp_server_client
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport.cmake
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport-noconfig.cmake
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport.cmake
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cppExport.cmake
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport.cmake
+[6.092s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport-noconfig.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport-noconfig.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport-noconfig.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/rosidl_cmake-extras.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/ament_cmake_export_libraries-extras.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/ament_cmake_export_targets-extras.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_clientConfig.cmake
+[6.093s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_clientConfig-version.cmake
+[6.094s] -- Installing: /home/maki/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.xml
+[6.094s] Invoked command in '/home/maki/ros2_ws/build/cpp_server_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/cpp_server_client

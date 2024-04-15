@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/maki/ros2_ws/src/ros2humble_tutorials/cpp_server_client/src/server_node.cpp" "CMakeFiles/practice_server_node.dir/src/server_node.cpp.o" "gcc" "CMakeFiles/practice_server_node.dir/src/server_node.cpp.o.d"
+  "/home/maki/ros2_ws/src/cpp_surver_client/src/server_node.cpp" "CMakeFiles/practice_server_node.dir/src/server_node.cpp.o" "gcc" "CMakeFiles/practice_server_node.dir/src/server_node.cpp.o.d"
   )
 
 # Targets to which this target links.
