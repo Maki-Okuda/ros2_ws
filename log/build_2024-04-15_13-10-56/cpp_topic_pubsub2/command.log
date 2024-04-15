@@ -1,0 +1,2 @@
+Invoking command in '/home/maki/ros2_ws/build/cpp_topic_pubsub2': /usr/bin/cmake /home/maki/ros2_ws/src/cpp_topic_pubsub2 -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/cpp_topic_pubsub2
+Invoked command in '/home/maki/ros2_ws/build/cpp_topic_pubsub2' returned '1': /usr/bin/cmake /home/maki/ros2_ws/src/cpp_topic_pubsub2 -DCMAKE_INSTALL_PREFIX=/home/maki/ros2_ws/install/cpp_topic_pubsub2

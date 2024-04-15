@@ -1,0 +1,4 @@
+Invoking command in '/home/maki/ros2_ws/build/cpp_topic_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/cpp_topic_practice -- -j12 -l12
+Invoked command in '/home/maki/ros2_ws/build/cpp_topic_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maki/ros2_ws/build/cpp_topic_practice -- -j12 -l12
+Invoking command in '/home/maki/ros2_ws/build/cpp_topic_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/cpp_topic_practice
+Invoked command in '/home/maki/ros2_ws/build/cpp_topic_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maki/ros2_ws/build/cpp_topic_practice
